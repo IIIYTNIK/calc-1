@@ -1,11 +1,11 @@
-//Автор: Бородиенко Д.Т.
+///Автор: Бородиенко Д.Т.
 
 #include <iostream>
 #include <cmath> // для fabs
 #include "Calculate.h"
 
 
-// Реализация функции из пронстраства имён MyMath для
+/// Реализация функции из пронстраства имён MyMath для
 namespace MyMath {
     //https://ivtipm.github.io/Programming/Glava01/index01.htm#z2
     ///Функция для подсчёта формулы х и у, x и у: вещественные. Результат вещественный
