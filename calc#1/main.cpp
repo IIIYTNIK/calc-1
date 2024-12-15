@@ -1,12 +1,12 @@
 ﻿//Автор: Бородиенко Д.Т.
 
 #include <iostream>
-#include <cassert>
+#include <cassert>// Подключаем библиотеку для использования assert
 #include <cmath> // для fabs
 #include "Calculate.h"
 using namespace MyMath;
 
-
+// Функция для тестирования функции calc
 void testCalc() {
     // Тест 1: Положительные числа
     double result1 = MyMath::calc(5.0, 2.0);
@@ -31,14 +31,14 @@ void testCalc() {
 
 int main(void)
 {
-    testCalc();
+    testCalc();// Запускаем тесты
 
     double x, y;
     std::cout << "Input x, y: ";
     std::cin >> x >> y;
 
     double z;
-    z = MyMath::calc(x, y);
+    z = MyMath::calc(x, y);// Вычисляем результат
     std::cout << "Result = " << z;
     return 0;
 }
