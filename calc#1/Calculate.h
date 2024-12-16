@@ -1,11 +1,11 @@
-//Автор:Бородиенко Д.Т.
+/// Author: Borodienko D.T.
 #ifndef CALCULATE_H
 #define CALCULATE_H
 
-// Объявление пространства имен MyMath для математической функции
+/// Implementation of the function from the MyMath namespace for
 namespace MyMath {
     //https://ivtipm.github.io/Programming/Glava01/index01.htm#z2
-    ///Функция для подсчёта формулы х и у, x и у: вещественные. Результат вещественный
+    ///Function for calculating the formulas x and y, x and y: real. The result is real
     double calc(double x, double y);
 }
 
